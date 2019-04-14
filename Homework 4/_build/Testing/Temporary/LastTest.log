@@ -1,0 +1,18 @@
+Start testing: Dec 17 13:22 RTZ 2 (ceia)
+----------------------------------------------------------
+1/1 Testing: justTest
+1/1 Test: justTest
+Command: "C:/Users/dimka/CLionProjects/cplusplus4/_build/bin/simple_test.exe"
+Directory: C:/Users/dimka/CLionProjects/cplusplus4/_build/test
+"justTest" start time: Dec 17 13:22 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"justTest" end time: Dec 17 13:22 RTZ 2 (ceia)
+"justTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 17 13:22 RTZ 2 (ceia)

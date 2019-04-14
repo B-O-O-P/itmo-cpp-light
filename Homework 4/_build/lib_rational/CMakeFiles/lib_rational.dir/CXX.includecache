@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/dimka/CLionProjects/cplusplus4/lib_rational/lib_rational.cpp
+iostream
+-
+lib_rational.h
+C:/Users/dimka/CLionProjects/cplusplus4/lib_rational/lib_rational.h
+
+C:/Users/dimka/CLionProjects/cplusplus4/lib_rational/lib_rational.h
+iostream
+-
+

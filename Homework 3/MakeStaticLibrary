@@ -1,0 +1,20 @@
+all: make_lib
+
+mylib.a: make_lib
+
+main.o: main.cpp
+	g++ -c main.cpp
+
+out/%.o: %.cpp | out
+	g++ -c -o $@ $<
+
+out:
+	mkdir -p out
+
+make_lib: out/hello.o out/bye.o out/here.o
+	ar -cr mylib.a $^
+
+.PHONY: clean
+
+clean:
+	rm -rf out/*.o mylib.a

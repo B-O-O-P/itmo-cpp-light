@@ -1,0 +1,26 @@
+MAJOR := .10
+MINOR := .1
+VERSION := $(MINOR)$(MAJOR)
+TARGET := libmylib.so.5
+NAME := mylib
+
+SRCS := main.cpp hello.cpp here.cpp bye.cpp
+OBJS := out/main.o out/hello.o out/here.o out/bye.o
+
+all: lib$(NAME).so.5$(VERSION)
+
+out/%.o: %.cpp | out
+	g++ -c -o $@ $<
+
+out:
+	mkdir -p out
+
+lib$(NAME).so.5$(VERSION): $(OBJS)
+	g++ -shared -Wl,-soname,lib$(NAME).so.5$(MAJOR) $^ -o $@
+	ln -s $@ lib$(NAME).so
+	ln -s $@ lib$(NAME).so.5
+
+.PHONY: clean
+
+clean:
+	rm -rf out/*.o lib$(NAME).*

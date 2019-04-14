@@ -1,0 +1,6 @@
+C:/Users/dimka/CLionProjects/cplusplus4/_install/lib/liblib_rational.dll.a
+C:/Users/dimka/CLionProjects/cplusplus4/_install/bin/liblib_rational.dll
+C:/Users/dimka/CLionProjects/cplusplus4/_install/include/./lib_rational.h
+C:/Users/dimka/CLionProjects/cplusplus4/_install/share/lib_rational.cmake
+C:/Users/dimka/CLionProjects/cplusplus4/_install/share/lib_rational-noconfig.cmake
+C:/Users/dimka/CLionProjects/cplusplus4/_install/bin/rational_poly.exe
