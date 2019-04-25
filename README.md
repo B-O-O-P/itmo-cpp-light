@@ -35,7 +35,7 @@ Eще одна функция должна выводить
     
 Решение:
   
-   * файлы [hello.cpp](Homework%203/hello.cpp),[here.cpp](Homework%203/here.cpp),[bye.cpp](Homework%203/bye.cpp).
+   * файлы [hello.cpp](Homework%203/hello.cpp),[here.cpp](Homework%203/here.cpp),[bye.cpp](Homework%203/bye.cpp),[mylib.h](Homework%203/mylib.h).
    
    * [Makefile](Homework%203/MakeStaticLibrary) для **статической** библиотеки.
    
