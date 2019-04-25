@@ -1,5 +1,5 @@
   ## Домашнее задание 4. CMake.
-Условие:
+# Условие:
 
 * Выполните сформулированное ниже задание, используя любую из интегрированных сред разработки. Результатом реализации части a задания должна быть статическая библиотека, а части b — программа, использующая библиотеку. Структура каталога проекта должна быть такой, как изображена на втором рисунке. Настройте проект приложения таким образом, чтобы в модуле ```rational_poly.cpp``` можно было подключать заголовочный файл библиотеки директивой:
 ![Рис. 1](Homework%204/pictures/1.jpg)
@@ -23,7 +23,7 @@
   
 Проверьте работоспособность собираемой программы для различных доступных операционных систем и компиляторов.  
 
-Решение:
+# Решение:
 
   * rational_poly [implementation](Homework%204/rational_poly/rational_poly.cpp)/[CMake](Homework%204/rational_poly/CMakeLists.txt)
   * lib_rational [header](Homework%204/lib_rational/lib_rational.h)/[implementation](Homework%204/lib_rational/lib_rational.cpp)/[CMake](Homework%204/lib_rational/CMakeLists.txt)
@@ -31,7 +31,7 @@
   * [bat-файл](Homework%204/build.cmd) для сборки
   
   ## Домашнее задание 3. Makefile.
-Условие:
+# Условие:
 
 * Напишите простые файлы  ```hello.cpp```, ```here.cpp```, ```bye.cpp```, ```mylib.h``` . В ```hello.cpp```, функция должна выводить
 
@@ -65,7 +65,7 @@ Eще одна функция должна выводить
 * Напишите **Makefile**, который компилирует все файлы  и строит статическую библиотеку ```mylib.a```, содержащую ```hello.cpp```, ```here.cpp```, ```bye.cpp```, но не ```main.cpp```
 * Напишите **Makefile**, который компилирует все файлы  и строит динамическую библиотеку с soname библиотеки ```libmylib.so.5.```  Установите  minor версию ```.1``` и релиз ```.10.``` Таким образом вы получите динамическую библиотеку с именем файла ```libmylib.so.5.1.10``` c установленными ```.so ```ссылками 
     
-Решение:
+# Решение:
   
    * файлы [hello.cpp](Homework%203/hello.cpp), [here.cpp](Homework%203/here.cpp), [bye.cpp](Homework%203/bye.cpp), [mylib.h](Homework%203/mylib.h).
    
@@ -75,7 +75,7 @@ Eще одна функция должна выводить
     
 
 ## Домашнее задание 2. Class.
-Условие:
+# Условие:
 
   Необходимо **реализовать** класс STUDENT:
   
@@ -108,14 +108,14 @@ Eще одна функция должна выводить
   DISPLAYINFO()              function to display all data members of report on the screen.   
 ```
 
-Решение:
+# Решение:
 
   * Student [header](Homework%202/Student.h)/[implementation](Homework%202/Student.cpp)
 
   * Report  [header](Homework%202/Report.h)/[implementation](Homework%202/Report.cpp)
  
   ## Домашнее задание 1. Intro.
-Условие:
+# Условие:
 
   * Write  a Program to demonstrate functions.
 
@@ -129,4 +129,4 @@ Eще одна функция должна выводить
 
   * Write  a Program to demonstrate  constructors.
   
-[Решение](Homework%201/main.cpp)
+# [Решение](Homework%201/main.cpp)
