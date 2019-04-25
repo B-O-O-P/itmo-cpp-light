@@ -8,6 +8,6 @@
 
   * Write  a Program to demonstrate pass by value, pass by reference and return by reference.
 
-  *Write  a Program to demonstrate classes and objects.
+  * Write  a Program to demonstrate classes and objects.
 
   * Write  a Program to demonstrate  constructors.
