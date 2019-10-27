@@ -353,7 +353,7 @@ string  c3 = from_string<string>(s3);// с3 = "abc"
 
 ### Решение: 
 * [fromString](Homework%2011/fromString.hpp)
-* "Плохой" класс для тестов [header](Homework%2011/BadFromString.h)/[implementation](Homework%2011/BadFromString.hpp)
+* "Плохой" класс для тестов [header](Homework%2011/BadFromString.h)/[implementation](Homework%2011/BadFromString.cpp)
  
  
   ## Домашнее задание 12. STL.
