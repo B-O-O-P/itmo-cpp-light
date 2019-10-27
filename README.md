@@ -221,7 +221,7 @@ flatten(doubles, std::cout);// работать должно не только �
  ### Решение:
  
  * [Array.h](Homework%207/Array.h)/[Array.cpp](Homework%207/Array.cpp)
- * "Плохой" класс для тестов [BadClass.h](Homework%207/BadClass.h)/[BadClass.h](Homework%207/BadClass.cpp)
+ * "Плохой" класс для тестов [BadClass.h](Homework%207/BadClass.h)/[BadClass.cpp](Homework%207/BadClass.cpp)
     
 
   ## Домашнее задание 8. Virtual polymorphism.
